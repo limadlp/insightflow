@@ -6,6 +6,17 @@ Este README segue os critérios do Projeto Integrado e está alinhado ao código
 
 ---
 
+### Links do Projeto
+
+- **MVP em Produção**: [https://insightflow.vercel.app/](https://insightflow.vercel.app/)
+- **Vídeo de Demonstração**: [Ver vídeo](https://github.com/limadlp/insightflow/blob/master/docs/video.mp4)
+- **Protótipo Navegável (MP4)**: [Ver protótipo](https://github.com/limadlp/insightflow/blob/master/docs/prototipo.mp4)
+- **Wireframes no Figma**: [Visualizar designs](https://www.figma.com/design/4dRWWwxhxgvH9XWZn643Fl/InsightFlow?node-id=0-1&t=Atsgp8sco3z1opOS-1)
+- **Repositório**: [GitHub](https://github.com/limadlp/insightflow/)
+- **Documentação de Arquitetura**: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)
+
+---
+
 #### Sumário
 
 - Visão Geral
@@ -60,8 +71,15 @@ Citações na Introdução
 
 Credenciais demo (mock)
 
-- Professor: teacher@demo.com / demo123
-- Estudante: student@demo.com / demo123
+Grupo Programação:
+
+Professor: professor.prog@demo.com / demo123
+Aluno: aluno.prog1@demo.com / demo123
+
+Grupo Meditação:
+
+Professor: professor.med@demo.com / demo123
+Aluno: aluno.med1@demo.com / demo123
 
 ---
 
@@ -244,15 +262,15 @@ pnpm dev
 4. Acessar
 
 - http://localhost:3000
-Credenciais de demonstração:
+  Credenciais de demonstração:
 
   Grupo Programação:
-  
+
   Professor: professor.prog@demo.com / demo123
   Aluno: aluno.prog1@demo.com / demo123
-  
+
   Grupo Meditação:
-  
+
   Professor: professor.med@demo.com / demo123
   Aluno: aluno.med1@demo.com / demo123
 
