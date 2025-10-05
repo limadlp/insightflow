@@ -244,8 +244,17 @@ pnpm dev
 4. Acessar
 
 - http://localhost:3000
-- Professor: teacher@demo.com / demo123
-- Estudante: student@demo.com / demo123
+Credenciais de demonstração:
+
+  Grupo Programação:
+  
+  Professor: professor.prog@demo.com / demo123
+  Aluno: aluno.prog1@demo.com / demo123
+  
+  Grupo Meditação:
+  
+  Professor: professor.med@demo.com / demo123
+  Aluno: aluno.med1@demo.com / demo123
 
 ---
 
@@ -287,8 +296,6 @@ pnpm dev
 ---
 
 #### Licença
-
-Defina a licença do projeto (ex.: MIT). Exemplo:
 
 - MIT License — ver LICENSE
 
