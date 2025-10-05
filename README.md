@@ -10,8 +10,8 @@ Este README segue os critérios do Projeto Integrado e está alinhado ao código
 
 - **MVP em Produção**: [https://insightflowhub.vercel.app/](https://insightflowhub.vercel.app/)
 - **Vídeo de Demonstração**: [Ver vídeo](https://github.com/limadlp/insightflow/blob/master/docs/video.mp4)
+- **Design no Figma**: [Visualizar designs](https://www.figma.com/design/4dRWWwxhxgvH9XWZn643Fl/InsightFlow?node-id=0-1&t=Atsgp8sco3z1opOS-1)
 - **Protótipo Navegável (MP4)**: [Ver protótipo](https://github.com/limadlp/insightflow/blob/master/docs/prototipo.mp4)
-- **Wireframes no Figma**: [Visualizar designs](https://www.figma.com/design/4dRWWwxhxgvH9XWZn643Fl/InsightFlow?node-id=0-1&t=Atsgp8sco3z1opOS-1)
 - **Repositório**: [GitHub](https://github.com/limadlp/insightflow/)
 - **Documentação de Arquitetura**: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)
 
