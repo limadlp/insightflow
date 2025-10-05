@@ -141,19 +141,4 @@ pnpm dev
 
 ---
 
-#### Referências
-
-- MCKINSEY & COMPANY. The State of Education Technology in 2021. McKinsey Insights, 2021.
-- EDUCATION WEEK. How Technology Can Free Up Teachers’ Time. Education Week Research Center, 2022.
-- VERCEL. Next.js Documentation. https://nextjs.org/docs
-- FIREBASE. Firebase Documentation. https://firebase.google.com/docs
-- REACT. React Documentation. https://react.dev
-- TAILWIND CSS. https://tailwindcss.com/docs
-- TYPESCRIPT. https://www.typescriptlang.org/docs
-- SHADCN/UI. https://ui.shadcn.com
-- C4 MODEL. https://c4model.com
-- WCAG 2.1. https://www.w3.org/WAI/WCAG21/quickref/
-
----
-
 By: Dangeles Lima
