@@ -17,26 +17,6 @@ Este README segue os critérios do Projeto Integrado e está alinhado ao código
 
 ---
 
-#### Sumário
-
-- Visão Geral
-- Status do MVP
-- Cronograma (04/08/2025 → 04/10/2025)
-- Casos de Uso
-- Requisitos Funcionais (RF)
-- Requisitos Não-Funcionais (RNF)
-- Arquitetura
-- Estrutura de Pastas e Rotas
-- Modelo de Dados (NoSQL)
-- Plano de Testes
-- Como Rodar Localmente
-- Roadmap
-- Critérios de Aceitação (Checklist)
-- Licença
-- Referências
-
----
-
 #### Visão Geral
 
 O InsightFlow centraliza:
@@ -80,83 +60,6 @@ Grupo Meditação:
 
 Professor: professor.med@demo.com / demo123
 Aluno: aluno.med1@demo.com / demo123
-
----
-
-#### Cronograma (04/08/2025 → 04/10/2025)
-
-- 04–10/08: Planejamento, WBS, alinhamento aos CA
-- 11–17/08: Casos de uso (15+), RF/RNF macro
-- 18–24/08: Diagrama de classes (10+), modelo NoSQL (≥6 entidades)
-- 25–31/08: Protótipo navegável (tela inicial + 3 casos principais)
-- 01–07/09: Estrutura FE (layout+menus), navegação
-- 08–14/09: CRUDs (≥2) e 1 funcionalidade adicional
-- 15–21/09: Arquitetura (padrão + C4 contexto), frameworks
-- 22–28/09: Plano de testes + execução parcial
-- 29/09–02/10: Horas, retrospectiva, vídeo (~5 min)
-- 03–04/10: Revisão e entrega final (04/10)
-
-Entrega final: 04 de outubro de 2025
-
----
-
-#### Casos de Uso
-
-Atores: Professor, Estudante
-
-- Professor (15+ primários)
-  - Gerenciar práticas (CRUD), categorizar, duplicar como modelo
-  - Atribuir a estudante/turma (coorte), agendar prática
-  - Gerenciar estudantes, visualizar/filtrar relatórios
-  - Fornecer feedback, marcar relatório como revisado
-  - Gerar/revogar convites, configurar branding
-  - Exportar relatórios, ver métricas, gerenciar notificações
-- Estudante
-  - Aceitar convite, visualizar práticas atribuídas
-  - Marcar prática concluída, submeter relatório
-  - Ver feedback, histórico e dashboard de progresso
-
----
-
-#### Requisitos Funcionais (RF)
-
-- RF01 Diferenciar perfis Professor e Estudante
-- RF02 CRUD de práticas
-- RF03 Categorias de práticas
-- RF04 Duplicar prática como modelo
-- RF05 Atribuir prática a estudante
-- RF06 Atribuir prática a turma (coorte)
-- RF07 Agendar prática (data/recorrência)
-- RF08 Estudante visualiza práticas atribuídas
-- RF09 Estudante marca prática como concluída
-- RF10 Estudante submete relatório
-- RF11 Professor visualiza relatórios
-- RF12 Filtros por período/status
-- RF13 Feedback textual do professor
-- RF14 Marcar relatório como revisado
-- RF15 Gerar e revogar convites
-- RF16 Estudante aceita convite e vincula-se ao professor
-- RF17 Branding (logo/cor primária)
-- RF18 Dashboard do professor
-- RF19 Dashboard do estudante
-- RF20 Exportação de relatórios (CSV/JSON)
-- RF21 Notificações configuráveis (professor)
-- RF22 Histórico de relatórios
-- RF23 Guardas de rota/redirecionamentos por perfil
-- RF24 Logout seguro
-
----
-
-#### Requisitos Não-Funcionais (RNF)
-
-- RNF01 Responsividade (mobile/tablet/desktop)
-- RNF02 Segurança de rotas por perfil (middleware)
-- RNF03 PT-BR e acessibilidade (WCAG 2.1 – diretrizes essenciais)
-- RNF04 TypeScript
-- RNF05 Next.js (App Router)
-- RNF06 Feedback de carregamento
-- RNF07 Abstração de persistência (storage-service)
-- RNF08 Padrões de código (ESLint/Prettier)
 
 ---
 
