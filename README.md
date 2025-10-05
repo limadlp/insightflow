@@ -93,50 +93,6 @@ C4 — Diagrama de Contexto (texto)
 
 ---
 
-#### Modelo de Dados (NoSQL)
-
-Coleções alvo (NoSQL) para backend real:
-
-- practices {id, teacherId, title, description, categoryId, createdAt, updatedAt}
-- practice_categories {id, teacherId, name}
-- assignments {id, practiceId, studentId, cohortId?, assignedAt, dueDate?, completed}
-- reports {id, assignmentId, studentId, content, status, submittedAt, reviewedAt?}
-- feedback_threads {id, reportId, authorId, content, createdAt}
-- invites {id, teacherId, token, used, usedBy?, createdAt, expiresAt}
-- branding {teacherId, logoUrl?, primaryColor, updatedAt}
-- cohorts {id, teacherId, name, createdAt}
-- audit_logs {id, actorId, action, entity, entityId, timestamp}
-
-Índices principais
-
-- practices: teacherId, categoryId+createdAt
-- assignments: studentId, teacherId, practiceId, cohortId
-- reports: assignmentId+submittedAt, studentId
-- feedback_threads: reportId+createdAt
-- invites: token (único), teacherId+used
-- cohorts: teacherId+name
-
-Atende CA-11 e CA-12 (≥6 entidades além de usuários/autenticação).
-
----
-
-#### Plano de Testes
-
-Exemplos de casos:
-
-- Login professor/estudante → redireciona rotas corretas
-- CRUD Práticas → prática aparece em /praticas
-- Atribuição a estudante → aparece em /minhas-praticas
-- Relatório → visível em /relatorios
-- Feedback → visível ao estudante
-- Marcar como revisado → status atualizado
-- Convite/Aceite → vínculo criado
-- Branding → tema aplicado
-- Exportação → arquivo gerado
-- Guardas de rota → acesso negado/redirecionado
-
----
-
 #### Como Rodar Localmente
 
 1. Clonar o repositório
@@ -176,43 +132,6 @@ pnpm dev
 
   Professor: professor.med@demo.com / demo123
   Aluno: aluno.med1@demo.com / demo123
-
----
-
-#### Roadmap
-
-- Backend real (Firebase Auth + Firestore ou API REST)
-- Uploads de mídia em relatórios
-- Notificações por e-mail/push
-- Relatórios avançados e exportações
-- Perfis ampliados (ex.: co-instrutor)
-- I18n (EN/ES)
-
----
-
-#### Critérios de Aceitação (Checklist)
-
-- CA-1 Cronograma: ok
-- CA-2 Casos de uso (15+ primários, excl. login/cadastro): ok
-- CA-3 RF (20–25): ok
-- CA-4 RNF (6–8): ok
-- CA-5 Interface navegável (tela inicial + 3 casos): ok
-- CA-6 Classes (10+): ok
-- CA-7 Padrão arquitetural: ok (MVVM)
-- CA-8 C4 (Contexto): ok (texto)
-- CA-9 Frameworks/Tecnologias: ok
-- CA-10 Estrutura FE (layout e menus): ok
-- CA-11 Modelo NoSQL: ok
-- CA-12 SGBD NoSQL (≥6 entidades além de auth): ok
-- CA-13 Autenticação e registro: mock pronto; controle por perfil
-- CA-14 Menu do sistema: ok
-- CA-15 CRUDs (≥2) com lookup: ok (práticas, categorias)
-- CA-16 Funcionalidade adicional: coortes, agendamento, exportação
-- CA-17 3 funcionalidades completas: CRUD práticas, atribuição, relatórios/feedback
-- CA-18 Plano/Relatório de testes: ok (exemplos)
-- CA-19 Apropriação de horas: conforme cronograma
-- CA-20 Avaliação retrospectiva: ok
-- CA-21 Vídeo final (~5 min): previsto
 
 ---
 
